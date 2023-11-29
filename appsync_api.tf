@@ -4,5 +4,5 @@ data "ns_connection" "api" {
 }
 
 locals {
-  api_url = data.ns_connection.api.outputs.url
+  api_endpoint = data.ns_connection.api.outputs.api_endpoint
 }
