@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-appsync-api-access
+friendly_name: AppSync Graphql API Access
+description: Capability to provide access from a static site to a graphql api hosted on AWS AppSync
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: graphql
+subplatform: ""
+type: ""
+appCategories:
+    - static-site
+is_public: true
