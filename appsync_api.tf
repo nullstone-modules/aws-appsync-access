@@ -1,6 +1,6 @@
 data "ns_connection" "api" {
   name     = "appsync_api"
-  contract = "block/aws/graphql:appsync"
+  contract = "ingress/aws/graphql:appsync"
 }
 
 locals {
