@@ -4,5 +4,6 @@ data "ns_connection" "api" {
 }
 
 locals {
-  api_endpoint = data.ns_connection.api.outputs.api_endpoint
+  graphql_api_id = data.ns_connection.api.outputs.graphql_api_id
+  api_endpoint   = data.ns_connection.api.outputs.api_endpoint
 }
